@@ -1,0 +1,8 @@
+.ricerca{
+    box-shadow: none!important;
+}
+
+.nav-destra-drop{
+    right: 0;
+    left: unset!important;
+}
