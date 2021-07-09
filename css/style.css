@@ -44,6 +44,25 @@
 .bg-orange{
     background-color: #cd3d0f;
 }
+.bg-light-brown{
+    background-color: #d9dadc;
+}
+
+.bg-darkblue{
+    background-color: #161C3B;
+}
+
+
+.bg-blue{
+    background-color: #00439C;
+}
+
+.c-blue{
+    color: #0072ce;
+}
+.bg-brown{
+    background-color: #bebcbb;
+}
 .giochi img{
     border-radius: 20px;
 }
