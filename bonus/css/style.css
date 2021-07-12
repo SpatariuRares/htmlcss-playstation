@@ -1,0 +1,82 @@
+.ricerca{
+    box-shadow: none!important;
+}
+
+.nav-destra-drop{
+    right: 0;
+    left: unset!important;
+}
+
+.black{
+    background-color: black;
+}
+
+.w-100{
+    width: 100%;
+}
+.play-menu{
+    max-width: 160px;
+}
+
+.jumbotron-primo{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../img/jumbo-bg.png);
+    background-position-y: top;
+    background-position-x: center;
+}
+
+.jumbotron-secondo{
+    width: 100%;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position-y: top;
+    background-position-x: center;
+}
+#taketwo{
+    background-color: black;
+}
+
+.jumbotron-primo img,
+#accessori img{
+    width: 50%;
+}
+#accessori .col{
+    opacity: 0.5;
+}
+
+#accessori .col.active{
+    opacity: 1;
+}
+
+.bg-orange{
+    background-color: #cd3d0f;
+}
+.bg-light-brown{
+    background-color: #d9dadc;
+}
+
+.bg-darkblue{
+    background-color: #161C3B;
+}
+
+
+.bg-blue{
+    background-color: #00439C;
+}
+
+.c-blue{
+    color: #0072ce;
+}
+.bg-brown{
+    background-color: #bebcbb;
+}
+.giochi img{
+    border-radius: 20px;
+}
+img{
+    width: 100%;
+}
+
+.giochi .border{
+    border-radius: 25px;
+}
