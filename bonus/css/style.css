@@ -18,6 +18,39 @@
     max-width: 160px;
 }
 
+
+.carousel-indicators [data-bs-target] {
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+    text-indent: 0;
+    opacity: 1;
+    transition: opacity .6s ease;
+}
+
+.row-cols-2>* {
+    flex: 0 0 auto!important;
+    width: 50%!important;
+    height: auto!important;
+}
+
+@media (min-width:576px) {
+    .row-cols-sm-3>* {
+        flex: 0 0 auto!important;
+        width: 33.3333333333%!important ;
+        height: auto!important;
+    }   
+}
+
+@media (min-width:1400px) {   
+    .row-cols-xxl-6>* {
+        flex: 0 0 auto!important;
+        width: 16.6666666667%!important;
+        height: auto!important;
+    }
+}
+
+
 .jumbotron-primo{
     width: 100%;
     height: 80vh;
@@ -76,8 +109,34 @@
 img{
     width: 100%;
 }
+.giochi .radius-25{
+    position: relative;
+    bottom: 0;
+    margin-top: 9px;
+    opacity: 0.5;
+    transition: opacity  0.5s;
+    transition: bottom  0.5s;
+}
 
 .giochi:focus-within .radius-25{
     border-radius: 25px;
     border: 5px solid #00439C;
+   
+}
+.giochi:hover .radius-25{
+    opacity: 1;
+     bottom: 15px;
+}
+.carousel-item,
+.carousel-control-prev,
+.carousel-control-next
+{
+    height: 80vh;
+}
+
+.carosel-caption {
+    position: absolute;
+    bottom: 1.25rem;
+    left: 10%;
+    color: #fff;
 }
