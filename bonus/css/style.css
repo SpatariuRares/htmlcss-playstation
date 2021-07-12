@@ -26,14 +26,14 @@
     text-indent: 0;
 }
 
-.row-cols-2>* {
+.carousel-indicators .row-cols-2>* {
     flex: 0 0 auto!important;
     width: 50%!important;
     height: auto!important;
 }
 
 @media (min-width:576px) {
-    .row-cols-sm-3>* {
+    .carousel-indicators .row-cols-sm-3>* {
         flex: 0 0 auto!important;
         width: 33.3333333333%!important ;
         height: auto!important;
@@ -41,7 +41,7 @@
 }
 
 @media (min-width:1400px) {   
-    .row-cols-xxl-6>* {
+    .carousel-indicators .row-cols-xxl-6>* {
         flex: 0 0 auto!important;
         width: 16.6666666667%!important;
         height: auto!important;
