@@ -1,3 +1,7 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .ricerca{
     box-shadow: none!important;
 }
@@ -17,6 +21,8 @@
 .play-menu{
     max-width: 160px;
 }
+
+
 
 
 .carousel-indicators [data-bs-target] {
@@ -119,7 +125,7 @@ img{
     box-sizing: border-box;
     opacity: 1;
     border-radius: 25px;
-    border: 5px solid #00439C;
+    border: 3px solid #00439C;
 }
 
 
