@@ -75,8 +75,9 @@
     opacity: 0.5;
 }
 
-#accessori .col.active{
+#jumbo-secondo .carousel-indicators .active{
     opacity: 1;
+    border-bottom: 2px solid #00439C;
 }
 
 .bg-orange{
@@ -114,7 +115,7 @@ img{
     transition: bottom  0.5s;
 }
 
-.carousel-indicators .active {
+#jumbo-primo .carousel-indicators .active {
     box-sizing: border-box;
     opacity: 1;
     border-radius: 25px;
@@ -122,9 +123,9 @@ img{
 }
 
 
-.carousel-item,
-.carousel-control-prev,
-.carousel-control-next
+#jumbo-primo .carousel-item,
+#jumbo-primo .carousel-control-prev,
+#jumbo-primo .carousel-control-next
 {
     height: 80vh;
 }
