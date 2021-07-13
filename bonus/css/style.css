@@ -134,7 +134,9 @@ img{
     object-fit: cover;
     object-position: top;
 }
-
+.carosel-caption img{
+    width: 50%;
+}
 
 .carosel-caption {
     position: absolute;
