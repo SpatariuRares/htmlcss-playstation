@@ -181,11 +181,11 @@
                     <li>
                         <button type="button" class="btn btn-secondary rounded-pill">Accedi</button>
                     </li>
-                    <li class="nav-item dropdown ps-2">
+                    <li class="nav-item dropdown ps-2 position-static">
                         <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fas fa-search"></i>
                         </a>
-                        <ul class="dropdown-menu nav-destra-drop" aria-labelledby="navbarDropdown">
+                        <ul id="ricerca"class="dropdown-menu nav-destra-drop" aria-labelledby="navbarDropdown">
                             <li>
                                 <form class="d-flex">
                                     <input class="form-control me-2 border-0 ricerca" type="search" placeholder="Search" aria-label="Search">
@@ -202,7 +202,7 @@
     
     <!-- Inizio Main -->
     <main>
-        <div id="jumbo-primo" class="carousel slide jumbo-primo" data-bs-ride="carousel">
+        <div id="jumbo-primo" class="carousel slide jumbo-primo" data-interval="false">
             <div class="carousel-inner">
                 <div class="carousel-item  active">
                     <img src="img/jumbo-bg.png" class="d-block w-100" alt="...">
@@ -386,7 +386,7 @@
                 <h2 class="mb-4">Ecco la Playstation 5</h2>
                 <h5 class="text-muted">Tuffati in nuove possibilità di gioco completamente inaspettate</h5>
             <div class="row row-cols-1 px-5 d-flex align-items-center">
-            <div id="jumbo-secondo" class="carousel slide" data-bs-ride="carousel">
+            <div id="jumbo-secondo" class="carousel slide carousel-fade" data-interval="false">
                 <div class="carousel-inner">
                     <div class="carousel-item  active">
                         <div class="container-fluid">
@@ -459,62 +459,62 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#jumbo-secondo" data-bs-slide="prev">
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#jumbo-secondo" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#jumbo-secondo" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
-                </button>
+                </button> -->
                 <div class="carousel-indicators carosel container-fluid position-static m-0 p-3">
                     <div class="row row-cols-2 row-cols-sm-3 row-cols-xxl-6">
-                        <button type="button" class) data-bs-target="#jumbo-secondo" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 1">
+                        <button type="button" class) data-bs-target="#jumbo-secondo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
                             <div class="giochi">
                                 <div class="image radius-25 p-2">
-                                    <a href="#/">
+                                    <a class="text-dark text-decoration-none" href="#/">
                                         <img src="img/playstation-5-thumb.png" alt="">
+                                        <p>Console PS5</p>
                                     </a>
                                 </div>
                             </div>
                         </button>
-                        <button type="button" class) data-bs-target="#jumbo-secondo" data-bs-slide-to="1"
-                            aria-label="Slide 2">
+                        <button type="button" class) data-bs-target="#jumbo-secondo" data-bs-slide-to="1" aria-label="Slide 2">
                             <div class="giochi">
                                 <div class="image radius-25 p-2">
-                                    <a href="#/">
+                                    <a class="text-dark text-decoration-none" href="#/">
                                         <img src="img/joypad-thumb.png" alt="">
+                                        <p>Controller wireless DualSense™</p>
                                     </a>
                                 </div>
                             </div>
                         </button>
-                        <button type="button" class) data-bs-target="#jumbo-secondo" data-bs-slide-to="2"
-                            aria-label="Slide 3">
+                        <button type="button" class) data-bs-target="#jumbo-secondo" data-bs-slide-to="2" aria-label="Slide 3">
                             <div class="giochi">
                                 <div class="image radius-25 p-2">
-                                    <a href="#/">
+                                    <a class="text-dark text-decoration-none" href="#/">
                                         <img src="img/headset-thumb.png" alt="">
+                                        <p>Cuffie wireless con microfono PULSE 3™</p>
                                     </a>
                                 </div>
                             </div>
                         </button>
-                        <button type="button" class) data-bs-target="#jumbo-secondo" data-bs-slide-to="3"
-                            aria-label="Slide 4">
+                        <button type="button" class) data-bs-target="#jumbo-secondo" data-bs-slide-to="3" aria-label="Slide 4">
                             <div class="giochi">
                                 <div class="image radius-25 p-2">
-                                    <a href="#/">
+                                    <a class="text-dark text-decoration-none" href="#/">
                                         <img src="img/remote-thumb.png" alt="">
+                                        <p>Telecomando Media</p>
                                     </a>
                                 </div>
                             </div>
                         </button>
-                        <button type="button" class) data-bs-target="#jumbo-secondo" data-bs-slide-to="4"
-                            aria-label="Slide 5">
+                        <button type="button" class) data-bs-target="#jumbo-secondo" data-bs-slide-to="4" aria-label="Slide 5">
                             <div class="giochi">
                                 <div class="image radius-25 p-2">
-                                    <a href="#/">
+                                    <a class="text-dark text-decoration-none" href="#/">
                                         <img src="img/camera-thumb.jpg" alt="">
+                                        <p>Telecamera HD</p>
                                     </a>
                                 </div>
                             </div>
