@@ -40,6 +40,12 @@ body{
     height: auto!important;
 }
 
+.carousel-indicators .row-cols-3>* {
+    flex: 0 0 auto!important;
+    width: 33%!important;
+    height: auto!important;
+}
+
 @media (min-width:576px) {
     .carousel-indicators .row-cols-sm-3>* {
         flex: 0 0 auto!important;
@@ -52,6 +58,11 @@ body{
     .carousel-indicators .row-cols-xxl-6>* {
         flex: 0 0 auto!important;
         width: 16.6666666667%!important;
+        height: auto!important;
+    }
+    .carousel-indicators .row-cols-xxl-5>* {
+        flex: 0 0 auto!important;
+        width: 20%!important;
         height: auto!important;
     }
 }
